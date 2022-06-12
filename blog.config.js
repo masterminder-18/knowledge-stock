@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'ブログ',
+  title: 'すぎののブログ',
   author: 'Yusuke Sugino',
   email: 'contact@yusuke-sugino.biz',
-  link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
+  link: 'https://blog.yusuke-sugino.biz',
+  description: '杉野友亮のブログサイトです',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'dark', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
