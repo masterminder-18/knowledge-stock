@@ -1,16 +1,16 @@
 const BLOG = {
-  title: 'すぎののブログ',
+  title: 'Polish.me | Yusuke Sugino',
   author: 'Yusuke Sugino',
   email: 'contact@yusuke-sugino.biz',
   link: 'https://blog.yusuke-sugino.biz',
-  description: '杉野友亮のブログサイトです',
+  description: '曖昧にしている考えを言語化し、洗練させることをテーマにした個人ブログです。',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  appearance: 'dark', // ['light', 'dark', 'auto'],
+  appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2023, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: false,
   showAbout: true,
