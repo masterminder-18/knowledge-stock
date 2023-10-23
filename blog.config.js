@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'Polish.me | Yusuke Sugino',
+  title: 'Comfort Work | Yusuke Sugino',
   author: 'Yusuke Sugino',
   email: 'contact@yusuke-sugino.biz',
   link: 'https://blog.yusuke-sugino.biz',
-  description: '曖昧にしている考えを言語化し、洗練させることをテーマにした個人ブログです。',
+  description: 'プロジェクトを進める上で重要ファクターであるものの、曖昧で言語化しずらいTipsをまとめていきます。ライフハック記事もたまーに',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
