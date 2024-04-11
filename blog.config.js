@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'Comfort Work | Yusuke Sugino',
+  title: 'Productive.be',
   author: 'Yusuke Sugino',
   email: 'contact@yusuke-sugino.biz',
   link: 'https://blog.yusuke-sugino.biz',
