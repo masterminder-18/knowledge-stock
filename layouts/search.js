@@ -16,7 +16,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
   }
 
   return (
-    <Container>
+    <>
       <div className="relative">
         <input
           type="text"
@@ -53,7 +53,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
           <BlogPost key={post.id} post={post} />
         ))}
       </div>
-    </Container>
+    </>
   )
 }
 SearchLayout.propTypes = {
