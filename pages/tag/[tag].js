@@ -1,8 +1,13 @@
 import { getAllPosts, getAllTagsFromPosts } from '@/lib/notion'
 import SearchLayout from '@/layouts/search'
+import Container from '@/components/Container'
 
 export default function Tag ({ tags, posts, currentTag }) {
-  return <SearchLayout tags={tags} posts={posts} currentTag={currentTag} />
+  return (
+    <Container title={`${currentTag}`} description={`Posts tagged with ${currentTag}`}>
+      <SearchLayout tags={tags} posts={posts} currentTag={currentTag} />
+    </Container>
+  )
 }
 
 export async function getStaticProps ({ params }) {
