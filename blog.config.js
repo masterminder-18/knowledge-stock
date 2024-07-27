@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'Productive.be',
+  title: 'Knowledge Stock',
   author: 'Yusuke Sugino',
   email: 'contact@yusuke-sugino.biz',
   link: 'https://yusuke-sugino.biz',
