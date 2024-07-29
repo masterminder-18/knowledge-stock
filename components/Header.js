@@ -11,7 +11,7 @@ const NavBar = () => {
   const links = [
     { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
     { id: 1, name: locale.NAV.LIBRARY, to: '/library', show: false },
-    { id: 2, name: "About me", to: '/profile', show: BLOG.showAbout },
+    { id: 2, name: "About", to: '/about', show: BLOG.showAbout },
     { id: 3, name: locale.NAV.RSS, to: '/feed', show: false, external: true },
     { id: 4, name: locale.NAV.SEARCH, to: '/search', show: false }
   ]
