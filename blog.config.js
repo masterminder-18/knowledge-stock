@@ -2,8 +2,8 @@ const BLOG = {
   title: 'Knowledge Stock',
   author: 'Yusuke Sugino',
   email: 'contact@yusuke-sugino.biz',
-  link: 'https://yusuke-sugino.biz',
-  description: '「生産性」をテーマに、AIやPCアプリに関する記事を書きます。',
+  link: 'https://knowledge-stock.space',
+  description: 'Insights on Productivity',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'light', // ['light', 'dark', 'auto'],
